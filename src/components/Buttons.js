@@ -101,13 +101,11 @@ function Buttons({ pokemon, randomPokemon }) {
     setPokemonName(pokemon.name + " used ");
     setVsHealthBar(vsHealthBar - damage);
     setPokemonAttack(move);
-    console.log(damage);
-    console.log(pokemonAttack);
     setDisable(true);
     setShowMoves(false);
     playSound(attackSound);
 
-    if (vsHealthBar >= 0) {
+    if (vsHealthBar - damage > 0) {
       setTimeout(enemyAttack, 1500);
     }
   };
