@@ -19,8 +19,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Our stretch goals
 
-- HP bar
-- Array of moves
+- Dynamic HP bar
+- Pokemon movement animation
 
 ## Created using Poke API
 
